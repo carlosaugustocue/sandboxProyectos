@@ -1,0 +1,60 @@
+### Archivos de compilación de Java ###
+target/
+bin/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### Ignorar archivos XML solo de IntelliJ IDEA ###
+.idea/*.xml
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+Thumbs.db
+
+### Archivos de configuración del sistema operativo ###
+*.log
+*.tmp
+.DS_Store
+
+### Maven ###
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+!**/src/main/**/build/
+!**/src/test/**/build/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Ignorar archivos de persistencia
+citas.txt
+pacientes.txt
+
+
+### Archivos XML generales NO del IDE ###
+# Eliminar esta regla si necesitas otros archivos XML
+#*.xml
