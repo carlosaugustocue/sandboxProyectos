@@ -1,5 +1,7 @@
 package org.cue.serializacion.domain;
 
+import java.io.Serializable;
+
 public class Usuario implements Serializable {
     private String nombreDeUsuario;
     private String email;
