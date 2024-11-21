@@ -10,6 +10,11 @@ public class Patient {
     private double height;
     private String bloodType;
 
+    Patient(String name, String email) {
+        this.name = name;
+        this.email = email;
+    }
+
     public String getEmail() {
         return email;
     }
